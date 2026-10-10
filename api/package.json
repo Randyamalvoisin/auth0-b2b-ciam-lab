@@ -1,0 +1,15 @@
+{
+  "name": "business-services-api",
+  "version": "1.0.0",
+  "description": "Resource server that validates Auth0 access tokens and enforces scopes (401 vs 403)",
+  "main": "api.js",
+  "private": true,
+  "scripts": {
+    "start": "node api.js",
+    "check": "node --check api.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-oauth2-jwt-bearer": "^1.6.1"
+  }
+}
